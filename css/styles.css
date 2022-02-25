@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+html{margin:0;
+padding:0;}
+body{
+  display:grid;
+  grid-auto-rows: minmax(100px,auto);
+background-color: rgba(233, 154, 8, 0.6);
+font-family: 'Dongle', sans-serif;
+color:#333;
+margin: 0;
+padding:0;
+
+}
+.main{
+  height: 300px;
+}
+
+h1{
+  font-size:6em;
+  text-align:center;
+}
+
+
+.section{
+  height: fit-content;
+  padding-left: 10px;
+  transition: background 1s ease;
+  font-size:2em;
+}
+
+
+
+.subject{
+  padding-top:1em;
+  font-size:2.5em;
+
+}
+ nav ul li a:hover{
+  background-color: rgb(86, 187, 178);
+}
+
+#list {
+  width: 100%;
+  list-style-type:none;
+  position:fixed;
+  top:0;
+  display:inline-flex;
+  flex-direction:row;
+  justify-content:center;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+}
+nav ul li a {
+
+  font-size:2em;
+  padding:0;
+  margin:.1em;
+  color:white;
+  text-decoration: none;
+
+}
+
+.active{
+  background-color: rgb(187, 110, 148);
+  transition: background 1.5s ease;
+}
+.activate{
+  background-color: rgb(13, 148, 141);
+  transition: background 1.s ease;
+}
+
+.footer{
+  padding-left:20px;
+  background-color:#333;
+  height: 200px;
+  font-size:2em;
+  color:white;
+}
